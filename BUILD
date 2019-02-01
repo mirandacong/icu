@@ -29,7 +29,7 @@ package(default_visibility=['//visibility:__pkg__'])
 icu_major_version = 60
 icu_minor_version = 2
 
-icu_src_dir = '/'.join(['.', PACKAGE_NAME, 'source'])
+icu_src_dir = '/'.join(['.', package_name(), 'source'])
 
 icu_copts = [
     '-fno-exceptions',
